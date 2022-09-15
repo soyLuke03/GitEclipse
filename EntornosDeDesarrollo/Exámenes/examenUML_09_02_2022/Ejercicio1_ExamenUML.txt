@@ -1,0 +1,16 @@
+La herencia de PERSONA con JUGADOR y CAPITÁN se da debido a que una persona puede ser una u otra.
+
+El tipo enumerado de SETUP, PERIFÉRICO y ORDENADOR son para enumerar los tipos de SetUp, periferico y Cpu que son usados.
+
+La agregación de ORDENADOR con PERSONA se da porque un ordenador es parte de la persona (respecto a posesión) y no tienen el mismo ciclo de vida ya que sin ORDENADOR sigue existiendo PERSONA y el mismo caso a la inversa.
+
+La composición de PERSONA y EQUIPO está clara en el momento de saber que un EQUIPO está compuesto de PERSONAS y sin PERSONAS no hay EQUIPO.
+
+Luego la relación de TORNEO con EQUIPO es de 1:N pensando en:
+-Un torneo es jugado por 4 equipos mínimo y cada equipo solo puede jugar un torneo.
+
+La relación entre TORNEO y PERSONA es de 1:N pensando en:
+-Un torneo es organizado por 1 o más personas y cada persona solo organiza un torneo.
+
+La relación entre PERIFERICO y JUGADOR es de 1:1 pensando en: 
+-Un jugador compite con su propio periférico, ya sea mando de PS4, de XBOX, nacom o ratón, y cada periférico es usado por un solo jugador. 
